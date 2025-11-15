@@ -1,0 +1,38 @@
+.list-items{
+    margin-top: 10px;
+    max-width: 500px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 12px;
+}
+.green{
+    background-color: rgb(4, 255, 0);
+}
+.todo{
+    margin-left: 10px;
+}
+.button-group {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.subbutton{
+    cursor: pointer;
+   background: transparent;
+   border: none;
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   padding: 4px;
+}
+.rebutton{
+   cursor: pointer;
+   background: transparent;
+   border: none;
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   padding: 4px;
+}
